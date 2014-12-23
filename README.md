@@ -1,6 +1,7 @@
 Lightweight [Django](https://www.djangoproject.com/) template loader for the [Mustache](http://mustache.github.io/) templating language, using [pystache](https://github.com/defunkt/pystache).  
 This only handles the server side rendering, but the main goal is obviously to remain dry by avoiding duplicating templates when rendering something client side.
 
+
 Install
 =======
 
@@ -19,12 +20,12 @@ Note: **NO NEED** to add ```django_mustache``` to ```settings.INSTALLED_APPS```,
 Settings
 ========
 
-* **MUSTACHE_TEMPLATE_DIR**:  
+* **MUSTACHE_TEMPLATE_DIRS**:  
   Defaults to ```[os.path.join(settings.STATIC_ROOT, 'js', 'templates')]```  
 
 * **MUSTACHE_FILE_EXTENSION**:  
   Defaults to ```'.mustache'```  
-  Will only use Mustache for templates files with one of those extensions, fallback on regular django templating language.
+  Will only use Mustache for templates files with one this extension, fallback on regular django templating language.
 
 
 Tests
@@ -40,4 +41,4 @@ $ pip install "django>=1.7, <1.8"  # install the highest 1.7 version
 $ python manage.py test django_mustache
 ```
 
-compatibility: django 1.4 to 1.7
+**compatibility**: Django **1.4** to **1.7**
