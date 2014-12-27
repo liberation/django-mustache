@@ -11,7 +11,7 @@ setup(
     include_package_data=True,
     license='BSD License',
     description='Mustache templates server side rendering in Django',
-    long_description=open('README').read(),
+    long_description=open('README.md').read(),
     author='Djaz Team',
     author_email='devweb@liberation.fr',
     url='http://www.liberation.fr/',
