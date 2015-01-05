@@ -6,7 +6,7 @@ Install
 =======
 
 ```shell
-pip install git+https://github.com/liberation/django_mustache.git
+pip install git+ssh://git@github.com/liberation/django-mustache.git
 ```
 **Note**: no pypy package yet  
 
