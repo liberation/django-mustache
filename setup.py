@@ -2,13 +2,15 @@
 from setuptools import setup
 from setuptools import find_packages
 
+import django_mustache
+
 
 setup(
     name='django-mustache',
-    version='0.1',
+    version=django_mustache.__version__,
     packages=find_packages(),
     include_package_data=True,
-    license='BSD License',
+    license=django_mustache.__license__,
     description='Mustache templates server side rendering in Django',
     long_description=open('README.md').read(),
     author='Djaz Team',
