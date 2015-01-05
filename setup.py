@@ -6,8 +6,7 @@ from setuptools import find_packages
 setup(
     name='django-mustache',
     version='0.1',
-    packages=find_packages(exclude=['test', 'tests',
-                                    'example', 'demo']),
+    packages=find_packages(),
     include_package_data=True,
     license='BSD License',
     description='Mustache templates server side rendering in Django',
