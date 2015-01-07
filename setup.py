@@ -23,4 +23,6 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-    ])
+    ],
+    install_requires=['pystache>=0.5.4']
+)
