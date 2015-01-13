@@ -15,6 +15,9 @@ setup(
     author='Djaz Team',
     author_email='devweb@liberation.fr',
     url='http://www.liberation.fr/',
+    extras_require={
+        "pystache": ["pystache"],
+    },
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
